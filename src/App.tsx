@@ -1,9 +1,8 @@
-import { useState } from "react";
-import Card from "./components/Card";
+import Main from "./components/Main";
 import "./App.css";
 
 function App() {
-  return <Card image={""} caption={""} />;
+  return <Main />;
 }
 
 export default App;

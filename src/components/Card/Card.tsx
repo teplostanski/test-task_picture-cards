@@ -5,11 +5,11 @@ import TrashIcon from "../../assets/TrashIcon";
 
 interface CardProps {
   id?: number;
-  image?: string;
-  caption?: string;
+  image: string;
+  caption: string;
 }
 
-const Card: React.FC = (props: CardProps) => {
+const Card: React.FC<CardProps> = (props: CardProps) => {
   return (
     <figure className="card">
       <div className="card__wrapper">
