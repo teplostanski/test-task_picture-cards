@@ -5,6 +5,7 @@ import TrashIcon from "../../assets/TrashIcon";
 
 interface CardProps {
   id?: number;
+  key?: any;
   image: string;
   caption: string;
 }
@@ -16,7 +17,7 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
         <img src={props.image} alt={props.caption} className="card__image" />
       </div>
       <figcaption className="card__caption-wrapper">
-        <p className="card__caption">{props.caption}</p>
+        <p className="card__caption">{props.caption}hhhhh</p>
         <div className="card__icons-wrapper">
           <span className="card__icon">
             <HeartIcon />
